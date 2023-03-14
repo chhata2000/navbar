@@ -1,0 +1,37 @@
+.drop{
+  position: absolute;
+  display: flex;
+  left:63%;
+  top: 19px;
+  margin: 1px;
+  right: 0;
+
+}
+
+#dropdown-basic-button{
+  border: 0px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(154, 152, 185);
+}
+
+#Dropdown{
+  background-color: rgb(251, 252, 252);
+  color: black;
+}
+
+
+  
+
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 450px) {
+  .drop {
+  
+    font-size: 25px;
+    margin: 5px;
+
+    color: black;
+  }
+}
+  

@@ -1,0 +1,24 @@
+.icon-notifcation{
+    position: absolute;
+    top: 6.8%;
+    left: 65.4%;
+    width: 345px;
+    font-size: 25px;
+    color: rgb(154, 152, 185);
+    bottom: 90;
+}
+.counter{
+    width: 9px;
+    background-color: hsl(15.58deg 100% 64.51%);
+    height: 7px;
+    border-radius: 100%;
+    top: 6.5%;
+    position: absolute;
+    left: 77%;
+    font-size: 11px;
+    text-align: center;
+
+}
+
+
+

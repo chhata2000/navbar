@@ -1,0 +1,105 @@
+.wrapper{
+   right: 0;
+   position: absolute;
+   left: 65%;
+   top: 5.6%;
+
+
+}
+.send-message{
+    background-color: hsl(15.58deg 100% 64.51%);
+    height: 45px;
+    width: 155px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    border-radius: 4px;
+
+ 
+}
+
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    color: #fff;
+    margin-left: -40px;
+
+
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  .wrapper {
+  
+    margin-left: 90px;
+
+    color: black;
+  }
+}
+  
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  .wrapper {
+   
+    color: #fff;
+    margin-left: 90px;
+
+
+  }
+}
+ 
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+  .wrapper {
+    width: 400px;
+    height: 200px;
+    margin-left: 90px;
+
+    color: black;
+  }
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .wrapper {
+    margin-left: 90px;
+
+    color: black;
+  }
+}
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .wrapper {
+    margin-left: 90px;
+    color: black;
+  }
+}
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .wrapper {
+    margin-left: 90px;
+
+    color: black;
+  }
+}
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  .wrapper {
+    color: black;
+    margin-left: 90px;
+
+  }
+}
